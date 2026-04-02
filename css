@@ -1,1 +1,39 @@
+body {
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  color:white;
+  text-align:center;
+  background:black;
+}
 
+.hero {
+  height:100vh;
+  background:url('../images/bg.jpg') center/cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.hero h1 {
+  font-family:'Great Vibes',cursive;
+  font-size:60px;
+}
+
+.countdown, .gallery, .location {
+  padding:80px 20px;
+}
+
+.gallery img {
+  width:90%;
+  max-width:300px;
+  margin:10px;
+  border-radius:15px;
+}
+
+.music {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  font-size:30px;
+  cursor:pointer;
+}
